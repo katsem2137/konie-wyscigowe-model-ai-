@@ -1,0 +1,3 @@
+skupic się na wybranym zakresie koni, wyciagnac informacje ogólne, ilość startów, rozkład liczby startów dla koni, okres w jakich startowal, dużo wizualizacji, histogramy na jakich pozycjach lądował, warunki na torze porównać lata czy jest jakas zmiana? przeszłość konia w jakich zakresach dat analizować wniki (3 lata / 100 startów, pół sezonu jaka będzie najlepsza kategoria mediana średnia dominanta?
+tylko konie z polski ( tysiące startów wystarcza) 
+wybrać konie które maja najwięcej startów ( najwięcej o nich danych )
