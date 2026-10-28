@@ -67,3 +67,32 @@ W 2026 r. punktem odniesienia mogą być gwiazdki ★ z programów.
 - Punkt odniesienia: koń z najlepszą średnią albo medianą miejsca z przeszłości wygrywa w ok. 30% gonitw,
   a losowe typowanie trafia w 13,2%.
 - Sezon 2026: przez lukę 2024–2025 historię konia sprzed 2026 r. ma tylko 110 z 515 startów.
+
+**Na zajęciach**
+
+- Dziennik projektowy: co tydzień zapisujemy, co zostało zrobione, i wyniki (zrzuty ekranu, wykresy).
+- Podział na zbiór treningowy i testowy 80/20, robiony raz, zaraz po przetwarzaniu wstępnym. Wszystkie modele
+  i ich parametry porównujemy na tych samych zbiorach.
+- Najpierw model z domyślnymi parametrami, potem sprawdzamy, jak działają zmiany parametrów.
+- Co obserwować: jak zmienia się błąd w kolejnych iteracjach, czas uczenia w porównaniu ze skutecznością, trafność
+  i krzywą uczenia, RMSE, R² i MAE przy regresji, ważność cech w lesie losowym.
+- Pojęcia: epoka to jedno przejście przez cały zbiór uczący, a paczka (batch) to część epoki.
+
+**Ustalenia**
+
+- Na początek tor we Wrocławiu i sezon 2013.
+- Bierzemy konie doświadczone (np. co najmniej 10 wcześniejszych startów). Konie z mniejszą liczbą startów usuwamy
+  z gonitwy i sprawdzamy, który z doświadczonych wygra.
+- Cechy to statystyki konia z przeszłości, np. mediana miejsc.
+- Podział w obrębie sezonu: 3/4 sezonu trening, 1/4 test. Druga możliwość: okresy trzyletnie, w których trzeci rok
+  jest testem.
+- Podział pracy: las losowy (MATLAB) – Kasia, regresja logistyczna – kolega.
+
+**Po zajęciach**
+
+- Tabela do modelu `model/cechy_partynice.csv`: 1 wiersz = 1 koń w 1 gonitwie (2013–2023 i 2026, bez kłusaków),
+  cechy konia liczone tylko ze startów sprzed danej gonitwy. Cel to kolumna `wygral`, a kolumna `zbior_2013` dzieli
+  sezon 2013 na trening (gonitwy do 22.09.2013, 61 gonitw) i test (19 gonitw).
+- Sprawdzenie progu doświadczenia: w 2013 r. przy progu 10 startów zostaje tylko 27 gonitw z co najmniej dwoma takimi
+  końmi, a w co trzeciej z nich wygrał koń mniej doświadczony. Do rozważenia niższy próg (3–5 startów) albo więcej
+  sezonów.
