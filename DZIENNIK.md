@@ -23,6 +23,10 @@ studiów magisterskich.
 - Kontrola jakości (`kontrola_jakosci.txt`): jeden zwycięzca w gonitwie, brakujące miejsca, duplikaty, spójność
   identyfikatorów koni, wiarygodność czasów.
 
+**Na zajęciach**
+
+- Wybrane modele: regresja logistyczna i las losowy.
+
 **Uwagi prowadzącego** (`TO DO .txt`)
 
 - Tylko konie z Polski, więc zbiory z Wielkiej Brytanii zostały odłożone.
