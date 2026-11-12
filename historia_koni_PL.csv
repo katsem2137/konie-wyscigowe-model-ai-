@@ -366,7 +366,7 @@
 126,Pepite Gede,klusak,Francja,,2003,klacz,2015-04-26,Warszawa,14330,1800,kłusaki,784,pow.,H. Bagiński,,1,S. Bagiński,3,0,7,800
 126,Pepite Gede,klusak,Francja,,2003,klacz,2015-05-03,Warszawa,14352,2000,kłusaki,784,pow.,H. Bagiński,,1,S. Bagiński,2,0,6,1600
 126,Pepite Gede,klusak,Francja,,2003,klacz,2015-05-10,Wrocław,14302,2200,kłusaki,784,pow.,H. Bagiński,,1,S. Bagiński,7,0,8,0
-126,Pepite Gede,klusak,Francja,,2003,klacz,2015-05-24,Warszawa,14391,2200,kłusaki,66,pow.,M. Bończak,,1,S. Bagiński,6,0,5,0
+126,Pepite Gede,klusak,Francja,,2003,klacz,2015-05-24,Warszawa,14391,2200,kłusaki,66,pow.,M. Bończak,,1,S. Bagiński,6,0,,0
 126,Pepite Gede,klusak,Francja,,2003,klacz,2015-07-11,Sopot,14500,1900,kłusaki,784,pow.,H. Bagiński,,1,S. Bagiński,4,0,7,320
 126,Pepite Gede,klusak,Francja,,2003,klacz,2015-07-24,Sopot,14550,2000,kłusaki,66,pow.,M. Bończak,,1,S. Bagiński,5,0,8,220
 126,Pepite Gede,klusak,Francja,,2003,klacz,2015-07-25,Sopot,14557,2100,kłusaki,784,pow.,H. Bagiński,,1,S. Bagiński,5,0,8,220
@@ -466,7 +466,7 @@
 128,Source Du Tremblay,klusak,Francja,,2006,klacz,2014-06-22,Wrocław,35,2200,kłusaki,62,pow.,B. Żakowski,,1,S. Bagiński,5,0,6,175
 128,Source Du Tremblay,klusak,Francja,,2006,klacz,2015-05-03,Warszawa,14352,2000,kłusaki,62,pow.,B. Żakowski,,247,Paula Żakowska,1,0,6,4000
 128,Source Du Tremblay,klusak,Francja,,2006,klacz,2015-05-10,Wrocław,14302,2200,kłusaki,168,pow.,P. Żakowska,,247,Paula Żakowska,3,0,8,1050
-128,Source Du Tremblay,klusak,Francja,,2006,klacz,2015-05-24,Warszawa,14391,2200,kłusaki,62,pow.,B. Żakowski,,247,Paula Żakowska,4,0,5,800
+128,Source Du Tremblay,klusak,Francja,,2006,klacz,2015-05-24,Warszawa,14391,2200,kłusaki,62,pow.,B. Żakowski,,247,Paula Żakowska,4,0,,800
 128,Source Du Tremblay,klusak,Francja,,2006,klacz,2015-06-21,Warszawa,14491,2200,kłusaki,62,pow.,B. Żakowski,,247,Paula Żakowska,5,0,7,200
 128,Source Du Tremblay,klusak,Francja,,2006,klacz,2015-07-11,Sopot,14504,1900,kłusaki,168,pow.,P. Żakowska,,247,Paula Żakowska,4,0,8,320
 128,Source Du Tremblay,klusak,Francja,,2006,klacz,2015-07-19,Sopot,14544,2400,kłusaki,60,pow.,H. Miksha,,247,Paula Żakowska,5,0,10,320
@@ -648,7 +648,7 @@
 131,Thetis Des Neuzy,klusak,Francja,,2007,klacz,2014-08-31,Wrocław,14082,2400,kłusaki,91,pow.,K. Kwiatkowska,,88,P. Żakowska,7,0,8,0
 131,Thetis Des Neuzy,klusak,Francja,,2007,klacz,2014-09-21,Wrocław,14101,2400,kłusaki,168,pow.,P. Żakowska,,88,P. Żakowska,4,0,10,525
 131,Thetis Des Neuzy,klusak,Francja,,2007,klacz,2015-05-03,Warszawa,14346,2000,kłusaki,62,pow.,B. Żakowski,,247,Paula Żakowska,3,0,6,800
-131,Thetis Des Neuzy,klusak,Francja,,2007,klacz,2015-05-24,Warszawa,14391,2200,kłusaki,168,pow.,P. Żakowska,,247,Paula Żakowska,2,0,5,3200
+131,Thetis Des Neuzy,klusak,Francja,,2007,klacz,2015-05-24,Warszawa,14391,2200,kłusaki,168,pow.,P. Żakowska,,247,Paula Żakowska,2,0,,3200
 131,Thetis Des Neuzy,klusak,Francja,,2007,klacz,2015-05-31,Wrocław,14402,2200,kłusaki,60,pow.,H. Miksha,,247,Paula Żakowska,2,0,9,2100
 131,Thetis Des Neuzy,klusak,Francja,,2007,klacz,2015-06-21,Warszawa,14499,2200,kłusaki,168,pow.,P. Żakowska,,247,Paula Żakowska,4,0,8,400
 131,Thetis Des Neuzy,klusak,Francja,,2007,klacz,2015-07-11,Sopot,14504,1900,kłusaki,62,pow.,B. Żakowski,,247,Paula Żakowska,5,0,8,160
@@ -1368,7 +1368,7 @@
 141,Saga,klusak,Francja,,2006,klacz,2015-10-03,Bravantice,,2140,sulki,,,B. Novák,,3,W. Kałuża,7,0,7,0
 141,Saga,klusak,Francja,,2006,klacz,2015-10-11,Wrocław,14820,2200,kłusaki,60,pow.,H. Miksha,,3,W. Kałuża,2,0,6,2100
 141,Saga,klusak,Francja,,2006,klacz,2015-10-17,Bravantice,,3140,sulki,,,P. Ostrycharz,,3,W. Kałuża,2,0,6,2126
-141,Saga,klusak,Francja,,2006,klacz,2015-11-14,Bravantice,,2640,sulki,,,B. Novák,,3,W. Kałuża,7,0,0,0
+141,Saga,klusak,Francja,,2006,klacz,2015-11-14,Bravantice,,2640,sulki,,,B. Novák,,3,W. Kałuża,7,0,,0
 141,Saga,klusak,Francja,,2006,klacz,2016-04-02,Mariendorf,,1900,sulki,,,D. Spangenberg,,3,W. Kałuża,,1,9,959
 141,Saga,klusak,Francja,,2006,klacz,2016-04-10,Mariendorf,,1900,sulki,,,B. Novák,,3,W. Kałuża,7,0,9,0
 141,Saga,klusak,Francja,,2006,klacz,2016-04-16,Bravantice,,3140,sulki,,,H. Bagiński,,3,W. Kałuża,2,0,9,1815
@@ -1509,7 +1509,7 @@
 143,Noblesse Buroise,klusak,Francja,,2001,klacz,2015-08-02,Wrocław,14562,2200,kłusaki,64,pow.,S. Muszyński,,3,W. Kałuża,9,0,12,0
 143,Noblesse Buroise,klusak,Francja,,2001,klacz,2015-08-09,Warszawa,14619,2000,kłusaki,162,pow.,P. Ostrycharz,,1,S. Bagiński,4,0,5,400
 143,Noblesse Buroise,klusak,Francja,,2001,klacz,2015-08-23,Wrocław,14646,2600,kłusaki,89,pow.,M. Tomczyk,,1,S. Bagiński,11,0,14,0
-143,Noblesse Buroise,klusak,Francja,,2001,klacz,2015-10-31,Bravantice,,2140,sulki,,,P. Ostrycharz,,3,W. Kałuża,5,0,0,647
+143,Noblesse Buroise,klusak,Francja,,2001,klacz,2015-10-31,Bravantice,,2140,sulki,,,P. Ostrycharz,,3,W. Kałuża,5,0,,647
 143,Noblesse Buroise,klusak,Francja,,2001,klacz,2016-10-02,Wrocław,15376,2200,kłusaki,162,pow.,P. Ostrycharz,,3,W. Kałuża,4,0,12,800
 143,Noblesse Buroise,klusak,Francja,,2001,klacz,2016-10-09,Wrocław,15385,2400,kłusaki,162,pow.,P. Ostrycharz,,3,W. Kałuża,2,0,6,1600
 147,Berenika,klusak,Polska,,2011,klacz,2014-08-31,Wrocław,14078,2200,kłusaki,87,pow.,E. Klossi,,4,R. Kasprowicz,3,0,5,1050
@@ -2159,8 +2159,8 @@
 166,Anada De La Criere,klusak,Francja,,2010,klacz,2015-07-25,Sopot,14557,2100,kłusaki,65,pow.,L. Piotrowski,,276,L. Piotrowski,8,0,8,0
 166,Anada De La Criere,klusak,Francja,,2010,klacz,2015-08-08,Warszawa,14617,2200,kłusaki,65,pow.,L. Piotrowski,,276,L. Piotrowski,7,0,9,0
 166,Anada De La Criere,klusak,Francja,,2010,klacz,2015-10-11,Wrocław,14819,2200,kłusaki,796,pow.,V. Finchuk,,276,L. Piotrowski,4,0,7,630
-166,Anada De La Criere,klusak,Francja,,2010,klacz,2015-10-31,Bravantice,,2640,sulki,,,L. Piotrowski,,276,L. Piotrowski,4,0,0,924
-166,Anada De La Criere,klusak,Francja,,2010,klacz,2015-11-14,Bravantice,,2640,sulki,,,L. Piotrowski,,276,L. Piotrowski,5,0,0,647
+166,Anada De La Criere,klusak,Francja,,2010,klacz,2015-10-31,Bravantice,,2640,sulki,,,L. Piotrowski,,276,L. Piotrowski,4,0,,924
+166,Anada De La Criere,klusak,Francja,,2010,klacz,2015-11-14,Bravantice,,2640,sulki,,,L. Piotrowski,,276,L. Piotrowski,5,0,,647
 166,Anada De La Criere,klusak,Francja,,2010,klacz,2016-03-26,Bravantice,,1640,sulki,,,V. Finchuk,,276,L. Piotrowski,7,0,8,0
 166,Anada De La Criere,klusak,Francja,,2010,klacz,2016-04-16,Bravantice,,1640,sulki,,,V. Finchuk,,276,L. Piotrowski,6,0,6,0
 166,Anada De La Criere,klusak,Francja,,2010,klacz,2016-04-30,Warszawa,14946,1800,kłusaki,796,pow.,V. Finchuk,,276,L. Piotrowski,2,0,8,1600
@@ -2419,7 +2419,7 @@
 173,Mayorina,klusak,Francja,,2000,klacz,2014-11-09,Warszawa,14235,2400,kłusaki,63,pow.,Z. Graczyk,,6,A. Najderski,3,0,12,1120
 173,Mayorina,klusak,Francja,,2000,klacz,2014-11-22,Warszawa,14270,2400,kłusaki,63,pow.,Z. Graczyk,,6,A. Najderski,5,0,11,280
 173,Mayorina,klusak,Francja,,2000,klacz,2015-05-03,Warszawa,14352,2000,kłusaki,59,pow.,W. Górniak,,227,W. Górniak,3,0,6,800
-173,Mayorina,klusak,Francja,,2000,klacz,2015-05-24,Warszawa,14391,2200,kłusaki,71,pow.,R. Kieniksman,,227,W. Górniak,5,0,5,400
+173,Mayorina,klusak,Francja,,2000,klacz,2015-05-24,Warszawa,14391,2200,kłusaki,71,pow.,R. Kieniksman,,227,W. Górniak,5,0,,400
 173,Mayorina,klusak,Francja,,2000,klacz,2015-05-31,Wrocław,14402,2200,kłusaki,59,pow.,W. Górniak,,227,W. Górniak,6,0,9,0
 173,Mayorina,klusak,Francja,,2000,klacz,2015-08-02,Wrocław,14562,2200,kłusaki,59,pow.,W. Górniak,,227,W. Górniak,3,0,12,1050
 173,Mayorina,klusak,Francja,,2000,klacz,2015-08-09,Warszawa,14619,2000,kłusaki,59,pow.,W. Górniak,,227,W. Górniak,1,0,5,4000
@@ -2619,7 +2619,7 @@
 177,Siblis D'alci,klusak,Francja,,2006,klacz,2015-04-26,Warszawa,14330,1800,kłusaki,59,pow.,W. Górniak,,227,W. Górniak,1,0,7,4000
 177,Siblis D'alci,klusak,Francja,,2006,klacz,2015-05-03,Warszawa,14346,2000,kłusaki,59,pow.,W. Górniak,,227,W. Górniak,4,0,6,400
 177,Siblis D'alci,klusak,Francja,,2006,klacz,2015-05-10,Wrocław,14302,2200,kłusaki,59,pow.,W. Górniak,,227,W. Górniak,6,0,8,0
-177,Siblis D'alci,klusak,Francja,,2006,klacz,2015-05-24,Warszawa,14391,2200,kłusaki,59,pow.,W. Górniak,,227,W. Górniak,3,0,5,1600
+177,Siblis D'alci,klusak,Francja,,2006,klacz,2015-05-24,Warszawa,14391,2200,kłusaki,59,pow.,W. Górniak,,227,W. Górniak,3,0,,1600
 177,Siblis D'alci,klusak,Francja,,2006,klacz,2015-06-21,Warszawa,14491,2200,kłusaki,59,pow.,W. Górniak,,227,W. Górniak,,1,7,0
 177,Siblis D'alci,klusak,Francja,,2006,klacz,2015-07-19,Sopot,14544,2400,kłusaki,59,pow.,W. Górniak,,227,W. Górniak,7,0,10,0
 177,Siblis D'alci,klusak,Francja,,2006,klacz,2015-07-24,Sopot,14551,2100,kłusaki,59,pow.,W. Górniak,,227,W. Górniak,5,0,5,220
@@ -2747,8 +2747,8 @@
 179,Vinciane,klusak,Francja,,2009,klacz,2015-07-25,Sopot,14555,2000,kłusaki,65,pow.,L. Piotrowski,,276,L. Piotrowski,2,0,6,1540
 179,Vinciane,klusak,Francja,,2009,klacz,2015-08-08,Warszawa,14617,2200,kłusaki,796,pow.,V. Finchuk,,276,L. Piotrowski,5,0,9,200
 179,Vinciane,klusak,Francja,,2009,klacz,2015-10-11,Wrocław,14822,2200,kłusaki,796,pow.,V. Finchuk,,276,L. Piotrowski,9,0,10,0
-179,Vinciane,klusak,Francja,,2009,klacz,2015-10-31,Bravantice,,1640,sulki,,,L. Piotrowski,,276,L. Piotrowski,3,0,0,577
-179,Vinciane,klusak,Francja,,2009,klacz,2015-11-14,Bravantice,,2640,sulki,,,L. Piotrowski,,276,L. Piotrowski,8,0,0,0
+179,Vinciane,klusak,Francja,,2009,klacz,2015-10-31,Bravantice,,1640,sulki,,,L. Piotrowski,,276,L. Piotrowski,3,0,,577
+179,Vinciane,klusak,Francja,,2009,klacz,2015-11-14,Bravantice,,2640,sulki,,,L. Piotrowski,,276,L. Piotrowski,8,0,,0
 179,Vinciane,klusak,Francja,,2009,klacz,2016-03-26,Bravantice,,2165,sulki,,,V. Finchuk,,276,L. Piotrowski,5,0,5,353
 179,Vinciane,klusak,Francja,,2009,klacz,2016-04-16,Bravantice,,1640,sulki,,,V. Finchuk,,276,L. Piotrowski,7,0,8,0
 179,Vinciane,klusak,Francja,,2009,klacz,2016-04-24,Warszawa,14938,2000,kłusaki,796,pow.,V. Finchuk,,276,L. Piotrowski,2,0,13,2000
@@ -3072,7 +3072,7 @@
 185,Romy Du Moret,klusak,Francja,,2005,klacz,2014-08-31,Wrocław,14081,2400,kłusaki,87,pow.,E. Klossi,,8,A. Serement,7,0,8,0
 185,Romy Du Moret,klusak,Francja,,2005,klacz,2014-09-21,Wrocław,14104,2400,kłusaki,104,pow.,A. Serement,,8,A. Serement,13,0,14,0
 185,Romy Du Moret,klusak,Francja,,2005,klacz,2015-05-02,Warszawa,14338,2200,kłusaki,68,pow.,T. Salivonchyk,,246,Andrzej Serement,5,0,6,200
-185,Romy Du Moret,klusak,Francja,,2005,klacz,2015-05-24,Warszawa,14391,2200,kłusaki,68,pow.,T. Salivonchyk,,246,Andrzej Serement,1,0,5,8000
+185,Romy Du Moret,klusak,Francja,,2005,klacz,2015-05-24,Warszawa,14391,2200,kłusaki,68,pow.,T. Salivonchyk,,246,Andrzej Serement,1,0,,8000
 185,Romy Du Moret,klusak,Francja,,2005,klacz,2015-07-11,Sopot,14506,2200,kłusaki,68,pow.,T. Salivonchyk,,246,Andrzej Serement,,1,9,0
 185,Romy Du Moret,klusak,Francja,,2005,klacz,2015-07-19,Sopot,14546,1900,kłusaki,68,pow.,T. Salivonchyk,,246,Andrzej Serement,3,0,8,640
 185,Romy Du Moret,klusak,Francja,,2005,klacz,2015-07-24,Sopot,14547,2100,kłusaki,68,pow.,T. Salivonchyk,,246,Andrzej Serement,,1,7,0
@@ -3553,7 +3553,7 @@
 235,Alpha Prim,xx,Polska,,2004,ogier,2010-03-16,Treviso,,3500,płoty,,dż.,P. A. Jonson,70,69,G. W. Wróblewski,6,0,7,0
 235,Alpha Prim,xx,Polska,,2004,ogier,2010-04-06,Treviso,,3500,płoty,,dż.,L. Sedlar,69,69,G. W. Wróblewski,2,0,6,9031
 235,Alpha Prim,xx,Polska,,2004,ogier,2010-04-27,Treviso,,3000,płoty,,dż.,L. Sedlar,72,69,G. W. Wróblewski,2,0,6,7389
-235,Alpha Prim,xx,Polska,,2004,ogier,2010-05-30,Merano,,3000,płoty,,dż.,J. Vana mł.,68,69,G. W. Wróblewski,1,0,0,26683
+235,Alpha Prim,xx,Polska,,2004,ogier,2010-05-30,Merano,,3000,płoty,,dż.,J. Vana mł.,68,69,G. W. Wróblewski,1,0,,26683
 235,Alpha Prim,xx,Polska,,2004,ogier,2010-06-13,Merano,,3300,płoty,,dż.,J. Vana mł.,69,69,G. W. Wróblewski,1,0,8,34893
 235,Alpha Prim,xx,Polska,,2004,ogier,2010-06-27,Merano,,3300,płoty,,dż.,J. Vana mł.,72,69,G. W. Wróblewski,5,0,10,2791
 235,Alpha Prim,xx,Polska,,2004,ogier,2012-06-10,Merano,,3000,płoty,,,J. Myska,65,41,M. Romanowski,3,0,10,4074
@@ -5197,7 +5197,7 @@
 585,Incinatus,xx,Polska,,2010,ogier,2013-11-23,Warszawa,858,1800,II,40,st. u.,B. Giedyk,57,35,D. Mioduszewski,1,0,7,8600
 585,Incinatus,xx,Polska,,2010,ogier,2014-04-26,Warszawa,48,1200,III,40,st. u.,B. Giedyk,63,35,D. Mioduszewski,3,0,8,1320
 585,Incinatus,xx,Polska,,2010,ogier,2014-05-11,Warszawa,92,1600,II,45,k. dż.,A. Kabardov,59,35,D. Mioduszewski,6,0,7,0
-585,Incinatus,xx,Polska,,2010,ogier,2014-06-08,Warszawa,148,1400,II,40,st. u.,B. Giedyk,56,35,D. Mioduszewski,4,0,5,860
+585,Incinatus,xx,Polska,,2010,ogier,2014-06-08,Warszawa,148,1400,II,40,st. u.,B. Giedyk,56,35,D. Mioduszewski,4,0,,860
 585,Incinatus,xx,Polska,,2010,ogier,2014-10-19,Warszawa,14183,1400,IV,43,u.,I. Wójcik,63,35,D. Mioduszewski,2,0,7,2240
 585,Incinatus,xx,Polska,,2010,ogier,2014-11-02,Warszawa,14217,1300,III,55,st. u.,M. Szabla,58,35,D. Mioduszewski,3,0,5,1320
 585,Incinatus,xx,Polska,,2010,ogier,2014-11-16,Warszawa,14267,1800,III,56,st. u.,J. Wyrzyk,60,35,D. Mioduszewski,6,0,7,0
@@ -5207,11 +5207,8 @@
 585,Incinatus,xx,Polska,,2010,ogier,2017-05-07,Warszawa,15584,1800,III,42,dż.,P. Krowicki,54,35,D. Mioduszewski,2,0,6,2800
 585,Incinatus,xx,Polska,,2010,ogier,2017-05-27,Warszawa,15638,1600,III,42,dż.,P. Krowicki,57,35,D. Mioduszewski,1,0,7,7000
 585,Incinatus,xx,Polska,,2010,ogier,2017-07-26,Hoppegarten,,1400,,,dż.,B. Murzabayev,60,35,D. Mioduszewski,11,0,11,0
-585,Incinatus,xx,Polska,,2010,ogier,2017-07-26,Hoppegarten,,1400,,,dż.,B. Murzabayev,60,35,D. Mioduszewski,,1,11,0
 585,Incinatus,xx,Polska,,2010,ogier,2017-08-12,Hoppegarten,,1800,,,dż.,M. Seidl,56,35,D. Mioduszewski,12,0,12,0
-585,Incinatus,xx,Polska,,2010,ogier,2017-08-12,Hoppegarten,,1800,,,dż.,M. Seidl,56,35,D. Mioduszewski,,1,12,0
 585,Incinatus,xx,Polska,,2010,ogier,2017-09-03,Drezno,,1500,,,,L.-M. Engels,54,35,D. Mioduszewski,8,0,11,0
-585,Incinatus,xx,Polska,,2010,ogier,2017-09-03,Drezno,,1500,,,,L.-M. Engels,54,35,D. Mioduszewski,,1,11,0
 585,Incinatus,xx,Polska,,2010,ogier,2017-09-10,Wrocław,15899,1400,III,324,dż.,D. Petryakov,62,35,D. Mioduszewski,8,0,11,0
 585,Incinatus,xx,Polska,,2010,ogier,2017-10-01,Warszawa,15963,2200,IV,783,dż.,M. Abik,54,35,D. Mioduszewski,4,0,7,600
 585,Incinatus,xx,Polska,,2010,ogier,2017-10-15,Wrocław,16025,1907,III,125,dż.,A. Reznikov,59,35,D. Mioduszewski,7,0,7,0
@@ -5260,11 +5257,8 @@
 591,Rakisz,xx,Polska,2012-01-26,2012,ogier,2017-05-07,Warszawa,15584,1800,III,44,dż.,A. Turgaev,54,35,D. Mioduszewski,1,0,6,7000
 591,Rakisz,xx,Polska,2012-01-26,2012,ogier,2017-05-27,Warszawa,15638,1600,III,44,dż.,A. Turgaev,62,35,D. Mioduszewski,5,0,7,350
 591,Rakisz,xx,Polska,2012-01-26,2012,ogier,2017-07-26,Hoppegarten,,1800,,,dż.,St. Hellyn,59,35,D. Mioduszewski,14,0,15,0
-591,Rakisz,xx,Polska,2012-01-26,2012,ogier,2017-07-26,Hoppegarten,,1800,,,dż.,St. Hellyn,59,35,D. Mioduszewski,,1,15,0
 591,Rakisz,xx,Polska,2012-01-26,2012,ogier,2017-09-16,Lipsk,,1600,,,dż.,T. Scardino,57,35,D. Mioduszewski,8,0,11,0
-591,Rakisz,xx,Polska,2012-01-26,2012,ogier,2017-09-16,Lipsk,,1600,,,dż.,T. Scardino,57,35,D. Mioduszewski,,1,11,0
 591,Rakisz,xx,Polska,2012-01-26,2012,ogier,2017-10-01,Warszawa,15963,2200,IV,44,dż.,A. Turgaev,54,35,D. Mioduszewski,3,0,7,1200
-591,Rakisz,xx,Polska,2012-01-26,2012,ogier,2017-10-07,Drezno,,2200,,,dż.,St. Hellyn,55,35,D. Mioduszewski,,1,12,882
 591,Rakisz,xx,Polska,2012-01-26,2012,ogier,2017-10-07,Drezno,,2200,,,dż.,St. Hellyn,55,35,D. Mioduszewski,4,0,12,882
 591,Rakisz,xx,Polska,2012-01-26,2012,ogier,2017-10-22,Wrocław,16075,2200,III,48,pr. dż.,K. Kamińska,51,35,D. Mioduszewski,3,0,7,1830
 591,Rakisz,xx,Polska,2012-01-26,2012,ogier,2017-11-04,Warszawa,16080,2000,III,48,pr. dż.,K. Kamińska,48,35,D. Mioduszewski,3,0,7,1400
@@ -5321,7 +5315,6 @@
 604,Salam,xx,Polska,,2008,wałach,2017-05-08,Pardubice,,3500,steeple,,dż.,R. Benš,69,55,I. Wróblewska,1,0,10,7344
 604,Salam,xx,Polska,,2008,wałach,2017-06-10,Pardubice,,4200,steeple,,,R. Benš,69,55,I. Wróblewska,1,0,11,7344
 604,Salam,xx,Polska,,2008,wałach,2017-07-06,Lysá nad Labem,,4600,steeple,,,R. Benš,70,55,I. Wróblewska,1,0,8,12240
-604,Salam,xx,Polska,,2008,wałach,2017-09-09,Pardubice,,5800,,,,R. Benš,70,55,I. Wróblewska,,1,10,4570
 604,Salam,xx,Polska,,2008,wałach,2017-09-09,Pardubice,,5800,,,,R. Benš,70,55,I. Wróblewska,5,0,10,4570
 606,Daston,xx,Polska,,2010,ogier,2013-05-11,Warszawa,364,1400,III,52,dż.,P. Piątkowski,59,37,M. Nowakowski,5,0,8,330
 606,Daston,xx,Polska,,2010,ogier,2013-06-01,Warszawa,416,1300,III,52,dż.,P. Piątkowski,59,37,M. Nowakowski,4,0,9,660
@@ -5834,7 +5827,6 @@
 688,Tankredi,xx,Polska,2012-04-15,2012,klacz,2017-07-22,Sopot,15772,1600,III,324,dż.,D. Petryakov,55,39,E. Porębna,4,0,7,700
 688,Tankredi,xx,Polska,2012-04-15,2012,klacz,2017-08-13,Wrocław,15831,1600,IV,324,dż.,D. Petryakov,58,39,E. Porębna,1,0,9,5000
 688,Tankredi,xx,Polska,2012-04-15,2012,klacz,2017-09-03,Drezno,,1200,,,dż.,T. Scardino,57,39,E. Porębna,1,0,5,8821
-688,Tankredi,xx,Polska,2012-04-15,2012,klacz,2017-09-03,Drezno,,1200,,,dż.,T. Scardino,57,39,E. Porębna,,1,5,8821
 688,Tankredi,xx,Polska,2012-04-15,2012,klacz,2017-09-24,Warszawa,15950,1200,III,324,dż.,D. Petryakov,62,39,E. Porębna,11,0,13,0
 688,Tankredi,xx,Polska,2012-04-15,2012,klacz,2017-09-30,Warszawa,15957,1600,II,324,dż.,D. Petryakov,55,39,E. Porębna,8,0,8,0
 688,Tankredi,xx,Polska,2012-04-15,2012,klacz,2018-06-03,Wrocław,16237,1600,III,18,st. u.,J. Kołakowski,58,39,E. Porębna,2,0,9,2440
@@ -5898,7 +5890,7 @@
 705,Sopran Best,xx,Włochy,,2009,wałach,2012-09-08,Warszawa,1191,1400,II,42,dż.,P. Krowicki,55,95,K. Rogowski,2,0,7,2000
 705,Sopran Best,xx,Włochy,,2009,wałach,2012-10-31,Grosseto,,3400,płoty,,,D. Colombu,66,95,K. Rogowski,4,0,6,2444
 705,Sopran Best,xx,Włochy,,2009,wałach,2012-11-07,Grosseto,,3400,płoty,,,D. Pastuszka,64,95,K. Rogowski,3,0,6,3259
-705,Sopran Best,xx,Włochy,,2009,wałach,2012-11-16,Piza,,0,płoty,,,D. Pastuszka,,95,K. Rogowski,5,0,0,1956
+705,Sopran Best,xx,Włochy,,2009,wałach,2012-11-16,Piza,,0,płoty,,,D. Pastuszka,,95,K. Rogowski,5,0,,1956
 705,Sopran Best,xx,Włochy,,2009,wałach,2013-01-22,Rzym,,3400,płoty,,dż.,A. Pollioni,66,95,K. Rogowski,4,0,7,3178
 705,Sopran Best,xx,Włochy,,2009,wałach,2013-01-31,Piza,,3500,steeple,,dż.,A. Pollioni,65,95,K. Rogowski,3,0,6,6111
 705,Sopran Best,xx,Włochy,,2009,wałach,2013-02-21,Piza,,3500,steeple,,dż.,D. Columbu,66,95,K. Rogowski,2,0,5,8148
@@ -5938,7 +5930,6 @@
 705,Sopran Best,xx,Włochy,,2009,wałach,2016-10-16,Wrocław,15408,3600,steeple,101,dż.,P. Peprna,66,275,T. Pastuszka,4,0,8,2700
 705,Sopran Best,xx,Włochy,,2009,wałach,2017-04-30,Wrocław,15546,3800,steeple,15,k. dż.,D. Pastuszka,67,275,T. Pastuszka,5,0,9,900
 705,Sopran Best,xx,Włochy,,2009,wałach,2017-05-21,Wrocław,15612,4200,steeple,9,k. dż.,R. Benš,66,275,T. Pastuszka,9,0,9,0
-705,Sopran Best,xx,Włochy,,2009,wałach,2017-11-15,Grosseto,,3400,płoty,,,D. Pastuszka,66,275,T. Pastuszka,,1,9,0
 705,Sopran Best,xx,Włochy,,2009,wałach,2017-11-15,Grosseto,,3400,płoty,,,D. Pastuszka,66,275,T. Pastuszka,7,0,9,0
 705,Sopran Best,xx,Włochy,,2009,wałach,2017-11-29,Grosseto,,3400,płoty,,,D. Pastuszka,63,275,T. Pastuszka,,1,8,0
 706,Sopran Lesto,xx,Włochy,,2009,wałach,2013-07-07,Warszawa,498,3800,płoty,9,pr. dż.,R. Benš,68,95,K. Rogowski,3,0,6,2800
@@ -6230,10 +6221,8 @@
 714,Isuzu,xx,Polska,,2010,klacz,2017-08-13,Wrocław,15832,4200,steeple,45,dż.,A. Kabardov,66,95,K. Rogowski,7,0,8,0
 714,Isuzu,xx,Polska,,2010,klacz,2017-09-02,Warszawa,15995,1400,III,55,pr. dż.,M. Szabla,53,95,K. Rogowski,7,0,7,0
 714,Isuzu,xx,Polska,,2010,klacz,2017-09-10,Wrocław,15900,4200,płoty,101,dż.,P. Peprna,69,95,K. Rogowski,1,0,8,35000
-714,Isuzu,xx,Polska,,2010,klacz,2017-10-15,Praga,,4500,steeple,,dż.,P. Peprna,68,95,K. Rogowski,,1,10,0
 714,Isuzu,xx,Polska,,2010,klacz,2017-10-15,Praga,,4500,steeple,,dż.,P. Peprna,68,95,K. Rogowski,8,0,10,0
 714,Isuzu,xx,Polska,,2010,klacz,2017-11-15,Grosseto,,4500,steeple,,dż.,P. Peprna,68,95,K. Rogowski,6,0,8,0
-714,Isuzu,xx,Polska,,2010,klacz,2017-11-15,Grosseto,,4500,steeple,,dż.,P. Peprna,68,95,K. Rogowski,,1,8,0
 714,Isuzu,xx,Polska,,2010,klacz,2018-04-15,Wrocław,16126,3800,steeple,11,pr. dż.,A. Chopyk,66,95,K. Rogowski,7,0,9,0
 714,Isuzu,xx,Polska,,2010,klacz,2018-05-13,Wrocław,16178,3600,płoty,26,dż.,Z. Lica,70,95,K. Rogowski,7,0,7,0
 714,Isuzu,xx,Polska,,2010,klacz,2018-06-10,Wrocław,16264,2400,III,24,st. u.,A. Kaleta,57,95,K. Rogowski,11,0,12,0
@@ -6298,7 +6287,7 @@
 737,Rimigliano,xx,Włochy,,2010,wałach,2013-09-07,Wrocław,314,2800,płoty,15,pr. dż.,D. Pastuszka,65,95,K. Rogowski,2,0,7,2400
 737,Rimigliano,xx,Włochy,,2010,wałach,2013-09-21,Warszawa,678,1300,III,46,dż.,S. Mazur,55,95,K. Rogowski,8,0,8,0
 737,Rimigliano,xx,Włochy,,2010,wałach,2013-10-20,Wrocław,778,3200,płoty,15,pr. dż.,D. Pastuszka,66,95,K. Rogowski,8,0,11,0
-737,Rimigliano,xx,Włochy,,2010,wałach,2014-06-08,Warszawa,148,1400,II,45,k. dż.,A. Kabardov,53,40,M. Rogowska,6,0,5,0
+737,Rimigliano,xx,Włochy,,2010,wałach,2014-06-08,Warszawa,148,1400,II,45,k. dż.,A. Kabardov,53,40,M. Rogowska,6,0,,0
 737,Rimigliano,xx,Włochy,,2010,wałach,2014-06-15,Warszawa,169,1300,III,45,k. dż.,A. Kabardov,59,40,M. Rogowska,6,0,7,0
 737,Rimigliano,xx,Włochy,,2010,wałach,2014-07-20,Sopot,251,2800,płoty,101,am. dż.,P. Peprna,65,40,M. Rogowska,5,0,7,400
 737,Rimigliano,xx,Włochy,,2010,wałach,2014-08-15,Kraków,14050,1600,IV,85,u.,C. Pawlak,58,40,M. Rogowska,5,0,7,160
@@ -8553,7 +8542,7 @@
 1393,Starbuck,xx,Czechy,,2009,wałach,2020-09-13,Wrocław,17631,3400,steeple,12,dż.,T. Boyer,67,220,P. Poles,5,0,7,1000
 1394,Enzio,xx,Niemcy,,2006,wałach,2013-09-07,Wrocław,316,4200,płoty,114,dż.,J. Váňa Jr,69,71,J. Vána,6,0,7,0
 1395,Wyona,xx,Czechy,,2006,klacz,2013-09-08,Wrocław,323,5000,steeple,13,st. u.,M. Kubik,69,71,J. Vána,2,0,9,40000
-1396,Age of Luck,xx,Polska,,2005,wałach,2007-10-07,Florencja,,1500,,,dż.,Als. Fiori,56,41,M. Romanowski,14,0,0,0
+1396,Age of Luck,xx,Polska,,2005,wałach,2007-10-07,Florencja,,1500,,,dż.,Als. Fiori,56,41,M. Romanowski,14,0,,0
 1396,Age of Luck,xx,Polska,,2005,wałach,2007-11-04,Warszawa,4399,1200,II,72,dż.,W. Szymczuk,57,41,M. Romanowski,1,0,9,4700
 1396,Age of Luck,xx,Polska,,2005,wałach,2007-11-18,Warszawa,4432,1400,B,49,dż.,S. Wasiutow,58,41,M. Romanowski,2,0,5,4000
 1396,Age of Luck,xx,Polska,,2005,wałach,2008-06-29,Warszawa,3470,1600,LR A,7,dż.,M. Pilich,59,41,M. Romanowski,6,0,7,0
@@ -9773,16 +9762,10 @@
 11126,Habanera,polkrew,Polska,,1997,klacz,2000-08-20,Wrocław,9649,2000,II,22,k. dż.,M. Kryszyłowicz,56,10,S. Borkowski,2,0,7,880
 11126,Habanera,polkrew,Polska,,1997,klacz,2000-09-03,Wrocław,9661,2000,II,22,k. dż.,M. Kryszyłowicz,56,10,S. Borkowski,1,0,5,2200
 11126,Habanera,polkrew,Polska,,1997,klacz,2000-09-17,Wrocław,9668,2000,I,22,k. dż.,M. Kryszyłowicz,56,10,S. Borkowski,6,0,6,0
-11126,Habanera,polkrew,Polska,,1997,klacz,2022-09-10,Wrocław,18752,2400,kłusaki,940,pow.,M. Melinger,,10,S. Borkowski,,1,10,0
-11126,Habanera,polkrew,Polska,,1997,klacz,2022-09-24,Wrocław,18809,2600,kłusaki,940,pow.,M. Melinger,,10,S. Borkowski,5,0,6,500
-11126,Habanera,polkrew,Polska,,1997,klacz,2022-10-01,Warszawa,18799,1600,kłusaki,940,pow.,M. Melinger,,10,S. Borkowski,4,0,6,700
-11126,Habanera,polkrew,Polska,,1997,klacz,2022-10-30,Warszawa,18881,2400,kłusaki,940,pow.,M. Melinger,,10,S. Borkowski,,1,6,0
 12265,Babilonia,xx,Polska,,1996,klacz,1998-07-08,Warszawa,10812,1000,II,7,dż.,M. Pilich,55,52,A. Walicki,4,0,7,320
 12265,Babilonia,xx,Polska,,1996,klacz,1998-08-12,Warszawa,10923,1000,II,7,dż.,M. Pilich,56,52,A. Walicki,4,0,7,320
 12265,Babilonia,xx,Polska,,1996,klacz,1998-09-16,Warszawa,11033,1000,II,7,dż.,M. Pilich,56,52,A. Walicki,6,0,7,0
 12265,Babilonia,xx,Polska,,1996,klacz,1998-09-30,Warszawa,11086,1300,II,567,u.,A. Aplas,56,52,A. Walicki,7,0,7,0
-12265,Babilonia,xx,Polska,,1996,klacz,2020-08-12,Wrocław,17482,4300,steeple,781,k. dż.,J. Odložil,67,52,A. Walicki,,1,14,0
-12265,Babilonia,xx,Polska,,1996,klacz,2021-11-11,Wrocław,18393,3400,steeple,742,dż.,J. Kratochvíl,67,52,A. Walicki,4,0,8,2000
 14260,Proud Boris,xx,Niemcy,,2004,wałach,2014-06-29,Wrocław,13918,3200,płoty,255,k. dż.,L. Matuský,72,217,J. Hanáček,2,0,8,3200
 14260,Proud Boris,xx,Niemcy,,2004,wałach,2014-08-10,Wrocław,13925,3400,płoty,255,k. dż.,L. Matuský,69,217,J. Hanáček,2,0,5,3200
 14260,Proud Boris,xx,Niemcy,,2004,wałach,2014-09-06,Wrocław,14089,4200,płoty,255,st. u.,L. Matuský,69,217,J. Hanáček,4,0,8,6000
@@ -10149,7 +10132,7 @@
 20397,Jabella,xx,Niemcy,2013-04-11,2013,klacz,2018-04-15,Wrocław,16129,1600,III,864,st. u.,J. Grzybowska,58,9,M. Borkowski,6,0,11,0
 20401,Subiectum,xx,Polska,2013-02-21,2013,ogier,2015-11-14,Warszawa,14896,1000,II,54,dż.,V. Popov,57,90,M. Jodłowski,1,0,7,9000
 20401,Subiectum,xx,Polska,2013-02-21,2013,ogier,2016-04-17,Warszawa,14924,1400,III,46,dż.,S. Mazur,62,90,M. Jodłowski,4,0,9,700
-20401,Subiectum,xx,Polska,2013-02-21,2013,ogier,2016-05-22,Warszawa,15012,1600,III,46,dż.,S. Mazur,61,90,M. Jodłowski,1,0,6,7000
+20401,Subiectum,xx,Polska,2013-02-21,2013,ogier,2016-05-22,Warszawa,15012,1600,III,46,dż.,S. Mazur,61,90,M. Jodłowski,1,0,,7000
 20401,Subiectum,xx,Polska,2013-02-21,2013,ogier,2016-06-18,Warszawa,15091,1400,II,46,dż.,S. Mazur,60,90,M. Jodłowski,1,0,7,9000
 20401,Subiectum,xx,Polska,2013-02-21,2013,ogier,2016-07-02,Warszawa,15107,1400,II,46,dż.,S. Mazur,62,90,M. Jodłowski,3,0,8,1350
 20401,Subiectum,xx,Polska,2013-02-21,2013,ogier,2016-07-30,Warszawa,15194,1600,II,46,dż.,S. Mazur,58,90,M. Jodłowski,6,0,8,0
@@ -10552,7 +10535,7 @@
 20547,Lira,xx,Polska,2013-03-16,2013,klacz,2015-07-04,Warszawa,14522,1200,II,76,pr. dż.,K. Grzybowski,56,40,M. Rogowska,4,0,6,900
 20547,Lira,xx,Polska,2013-03-16,2013,klacz,2015-11-15,Warszawa,14902,1400,II,45,dż.,A. Kabardov,56,40,M. Rogowska,6,0,7,0
 20547,Lira,xx,Polska,2013-03-16,2013,klacz,2016-04-30,Warszawa,14948,1600,II,783,k. dż.,M. Abik,54,95,K. Rogowski,,1,7,0
-20547,Lira,xx,Polska,2013-03-16,2013,klacz,2016-05-22,Warszawa,15012,1600,III,48,pr. dż.,K. Kamińska,55,95,K. Rogowski,7,0,6,0
+20547,Lira,xx,Polska,2013-03-16,2013,klacz,2016-05-22,Warszawa,15012,1600,III,48,pr. dż.,K. Kamińska,55,95,K. Rogowski,7,0,,0
 20547,Lira,xx,Polska,2013-03-16,2013,klacz,2016-06-25,Warszawa,15072,1600,III,125,dż.,A. Reznikov,57,95,K. Rogowski,5,0,7,350
 20547,Lira,xx,Polska,2013-03-16,2013,klacz,2016-07-09,Sopot,15135,1300,IV,789,pr. dż.,A. Kardanov,56,95,K. Rogowski,7,0,7,0
 20547,Lira,xx,Polska,2013-03-16,2013,klacz,2016-07-17,Sopot,15154,1400,III,45,dż.,A. Kabardov,54,95,K. Rogowski,5,0,7,350
@@ -10563,7 +10546,7 @@
 20553,Butch,xx,Polska,2013-02-12,2013,ogier,2015-08-29,Warszawa,14688,1400,II,45,dż.,A. Kabardov,57,95,K. Rogowski,9,0,9,0
 20553,Butch,xx,Polska,2013-02-12,2013,ogier,2016-05-01,Warszawa,14949,2000,III,76,pr. dż.,K. Grzybowski,57,95,K. Rogowski,5,0,7,350
 20553,Butch,xx,Polska,2013-02-12,2013,ogier,2016-05-07,Warszawa,14958,1300,III,46,dż.,S. Mazur,55,95,K. Rogowski,4,0,7,700
-20553,Butch,xx,Polska,2013-02-12,2013,ogier,2016-05-22,Warszawa,15012,1600,III,125,dż.,A. Reznikov,59,95,K. Rogowski,6,0,6,0
+20553,Butch,xx,Polska,2013-02-12,2013,ogier,2016-05-22,Warszawa,15012,1600,III,125,dż.,A. Reznikov,59,95,K. Rogowski,6,0,,0
 20553,Butch,xx,Polska,2013-02-12,2013,ogier,2016-06-12,Warszawa,15059,1400,III,76,pr. dż.,K. Grzybowski,56,95,K. Rogowski,1,0,9,7000
 20553,Butch,xx,Polska,2013-02-12,2013,ogier,2016-06-18,Warszawa,15090,1200,III,125,dż.,A. Reznikov,56,95,K. Rogowski,1,0,7,7000
 20553,Butch,xx,Polska,2013-02-12,2013,ogier,2016-07-02,Warszawa,15107,1400,II,45,dż.,A. Kabardov,53,95,K. Rogowski,7,0,8,0
@@ -11010,7 +10993,7 @@
 20678,Alvani,xx,Polska,2013-02-12,2013,ogier,2015-09-19,Warszawa,14743,1000,II,44,dż.,A. Turgaev,57,52,A. Walicki,2,0,6,3600
 20678,Alvani,xx,Polska,2013-02-12,2013,ogier,2015-10-31,Warszawa,14873,1000,II,44,dż.,A. Turgaev,57,52,A. Walicki,5,0,10,450
 20678,Alvani,xx,Polska,2013-02-12,2013,ogier,2016-04-23,Warszawa,14932,1800,III,76,pr. dż.,K. Grzybowski,59,52,A. Walicki,2,0,9,2800
-20678,Alvani,xx,Polska,2013-02-12,2013,ogier,2016-05-22,Warszawa,15012,1600,III,76,pr. dż.,K. Grzybowski,57,52,A. Walicki,4,0,6,700
+20678,Alvani,xx,Polska,2013-02-12,2013,ogier,2016-05-22,Warszawa,15012,1600,III,76,pr. dż.,K. Grzybowski,57,52,A. Walicki,4,0,,700
 20678,Alvani,xx,Polska,2013-02-12,2013,ogier,2016-06-11,Warszawa,15052,1600,III,76,pr. dż.,K. Grzybowski,58,52,A. Walicki,7,0,9,0
 20678,Alvani,xx,Polska,2013-02-12,2013,ogier,2016-08-06,Warszawa,15211,1800,IV,51,dż.,M. Srnec,56,52,A. Walicki,1,0,8,6000
 20678,Alvani,xx,Polska,2013-02-12,2013,ogier,2016-08-28,Warszawa,15279,1800,III,46,dż.,S. Mazur,59,52,A. Walicki,5,0,6,350
@@ -11618,10 +11601,9 @@
 20912,Baliverne Buroise,klusak,Francja,,2011,klacz,2015-08-08,Warszawa,14610,2000,kłusaki,162,pow.,P. Ostrycharz,,3,W. Kałuża,,1,8,0
 20912,Baliverne Buroise,klusak,Francja,,2011,klacz,2015-08-23,Wrocław,14646,2600,kłusaki,784,pow.,H. Bagiński,,1,S. Bagiński,6,0,14,0
 20912,Baliverne Buroise,klusak,Francja,,2011,klacz,2015-09-05,Bravantice,,1640,sulki,,,H. Bagiński,,3,W. Kałuża,6,0,6,0
-20912,Baliverne Buroise,klusak,Francja,,2011,klacz,2015-09-05,Bravantice,,1640,sulki,,,H. Bagiński,,3,W. Kałuża,,1,6,0
 20912,Baliverne Buroise,klusak,Francja,,2011,klacz,2015-10-17,Bravantice,,1640,sulki,,,P. Ostrycharz,,3,W. Kałuża,3,0,9,693
-20912,Baliverne Buroise,klusak,Francja,,2011,klacz,2015-10-31,Bravantice,,2640,sulki,,,P. Ostrycharz,,3,W. Kałuża,2,0,0,2126
-20912,Baliverne Buroise,klusak,Francja,,2011,klacz,2015-11-14,Bravantice,,2640,sulki,,,P. Ostrycharz,,3,W. Kałuża,1,0,0,4160
+20912,Baliverne Buroise,klusak,Francja,,2011,klacz,2015-10-31,Bravantice,,2640,sulki,,,P. Ostrycharz,,3,W. Kałuża,2,0,,2126
+20912,Baliverne Buroise,klusak,Francja,,2011,klacz,2015-11-14,Bravantice,,2640,sulki,,,P. Ostrycharz,,3,W. Kałuża,1,0,,4160
 20912,Baliverne Buroise,klusak,Francja,,2011,klacz,2016-03-26,Bravantice,,2140,sulki,,,P. Ostrycharz,,3,W. Kałuża,1,0,6,1775
 20912,Baliverne Buroise,klusak,Francja,,2011,klacz,2016-04-02,Mariendorf,,1900,sulki,,,D. Spangenberg,,3,W. Kałuża,,1,11,640
 20912,Baliverne Buroise,klusak,Francja,,2011,klacz,2016-04-10,Mariendorf,,1900,sulki,,,M. Hegewald,,3,W. Kałuża,4,0,6,640
@@ -11742,7 +11724,7 @@
 20921,Domino Deco,klusak,Francja,,2013,ogier,2015-10-03,Bravantice,,1640,sulki,,,B. Novák,,1,S. Bagiński,7,0,7,0
 20921,Domino Deco,klusak,Francja,,2013,ogier,2015-10-11,Wrocław,14818,1900,kłusaki,784,pow.,H. Bagiński,,1,S. Bagiński,,1,6,0
 20921,Domino Deco,klusak,Francja,,2013,ogier,2015-10-17,Bravantice,,1640,sulki,,,H. Bagiński,,1,S. Bagiński,6,0,8,0
-20921,Domino Deco,klusak,Francja,,2013,ogier,2015-10-31,Bravantice,,1640,sulki,,,H. Bagiński,,1,S. Bagiński,5,0,0,291
+20921,Domino Deco,klusak,Francja,,2013,ogier,2015-10-31,Bravantice,,1640,sulki,,,H. Bagiński,,1,S. Bagiński,5,0,,291
 20921,Domino Deco,klusak,Francja,,2013,ogier,2016-07-24,Praga,,1670,sulki,,,H. Bagiński,,1,S. Bagiński,,1,8,0
 20921,Domino Deco,klusak,Francja,,2013,ogier,2016-08-06,Praga,,1670,sulki,,,B. Novák,,1,S. Bagiński,,1,9,0
 20921,Domino Deco,klusak,Francja,,2013,ogier,2016-08-20,Bravantice,,1640,sulki,,,S. Bagiński,,1,S. Bagiński,,1,6,0
@@ -12823,7 +12805,7 @@
 21142,Zilgaro,oo,Polska,2013-04-04,2013,ogier,2016-09-18,Wrocław,15318,2200,II,76,k. dż.,K. Grzybowski,58,27,W. Kryszyłowicz,3,0,7,1600
 21142,Zilgaro,oo,Polska,2013-04-04,2013,ogier,2016-10-09,Wrocław,15384,2200,II,18,st. u.,J. Kołakowski,58,27,W. Kryszyłowicz,5,0,8,800
 21142,Zilgaro,oo,Polska,2013-04-04,2013,ogier,2016-10-23,Wrocław,15411,1907,II,18,st. u.,J. Kołakowski,58,27,W. Kryszyłowicz,8,0,8,0
-21143,Baahy,xx,Irlandia,,2013,wałach,2016-05-22,Warszawa,15012,1600,III,44,dż.,A. Turgaev,59,28,M. Krzyśków,2,0,6,2800
+21143,Baahy,xx,Irlandia,,2013,wałach,2016-05-22,Warszawa,15012,1600,III,44,dż.,A. Turgaev,59,28,M. Krzyśków,2,0,,2800
 21143,Baahy,xx,Irlandia,,2013,wałach,2016-06-19,Warszawa,15103,1600,III,51,dż.,M. Srnec,59,28,M. Krzyśków,1,0,7,7000
 21143,Baahy,xx,Irlandia,,2013,wałach,2016-07-24,Warszawa,15170,1600,IV,36,dż.,T. Lukašek,57,28,M. Krzyśków,1,0,10,6000
 21143,Baahy,xx,Irlandia,,2013,wałach,2016-08-20,Warszawa,15252,1600,III,44,dż.,A. Turgaev,59,28,M. Krzyśków,2,0,7,2800
@@ -12835,9 +12817,7 @@
 21143,Baahy,xx,Irlandia,,2013,wałach,2017-08-06,Warszawa,15825,1800,B,36,dż.,T. Lukašek,56,28,M. Krzyśków,8,0,12,0
 21143,Baahy,xx,Irlandia,,2013,wałach,2017-08-26,Warszawa,15884,1600,II,51,dż.,M. Srnec,56,28,M. Krzyśków,1,0,7,9000
 21143,Baahy,xx,Irlandia,,2013,wałach,2017-09-16,Warszawa,15923,1400,II,51,dż.,M. Srnec,60,28,M. Krzyśków,3,0,10,1350
-21143,Baahy,xx,Irlandia,,2013,wałach,2017-10-07,Drezno,,1400,,,dż.,M. Seidl,54,28,M. Krzyśków,,1,9,0
 21143,Baahy,xx,Irlandia,,2013,wałach,2017-10-07,Drezno,,1400,,,dż.,M. Seidl,54,28,M. Krzyśków,9,0,9,0
-21143,Baahy,xx,Irlandia,,2013,wałach,2017-10-21,Drezno,,1400,,,dż.,L.-M. Engels,58,28,M. Krzyśków,,1,9,0
 21143,Baahy,xx,Irlandia,,2013,wałach,2017-10-21,Drezno,,1400,,,dż.,L.-M. Engels,58,28,M. Krzyśków,6,0,9,0
 21143,Baahy,xx,Irlandia,,2013,wałach,2018-04-15,Wrocław,16129,1600,III,34,u.,K. Brygier,59,28,M. Krzyśków,1,0,11,6100
 21143,Baahy,xx,Irlandia,,2013,wałach,2018-04-28,Warszawa,16152,1600,II,34,u.,K. Brygier,56,28,M. Krzyśków,7,0,11,0
@@ -13546,7 +13526,6 @@
 21379,Furia,xx,Niemcy,2014-04-22,2014,klacz,2017-06-11,Warszawa,15678,2000,II,43,pr. dż.,I. Wójcik,55,271,A. Zielińska,1,0,10,9000
 21379,Furia,xx,Niemcy,2014-04-22,2014,klacz,2017-07-02,Warszawa,15736,2000,I,43,pr. dż.,I. Wójcik,57,271,A. Zielińska,1,0,11,10600
 21379,Furia,xx,Niemcy,2014-04-22,2014,klacz,2017-07-30,Warszawa,15800,2400,L A,125,dż.,A. Reznikov,59,271,A. Zielińska,1,0,11,69000
-21379,Furia,xx,Niemcy,2014-04-22,2014,klacz,2017-09-24,Kolonia,,1850,,,,F. Minarik,55,271,A. Zielińska,,1,14,0
 21379,Furia,xx,Niemcy,2014-04-22,2014,klacz,2017-09-24,Kolonia,,1850,,,,F. Minarik,55,271,A. Zielińska,7,0,14,0
 21379,Furia,xx,Niemcy,2014-04-22,2014,klacz,2017-10-15,Wrocław,16027,2400,L A,125,dż.,A. Reznikov,59,271,A. Zielińska,3,0,8,12000
 21386,Nico,xx,Polska,2014-01-11,2014,ogier,2017-05-13,Warszawa,15594,1600,III,72,dż.,W. Szymczuk,59,210,M. Kacprzyk,10,0,11,0
@@ -13604,7 +13583,7 @@
 21448,A'latune,xx,Bułgaria,,2013,klacz,2016-08-13,Warszawa,15230,1200,III,45,dż.,A. Kabardov,57,58,E. Zahariev,7,0,10,0
 21448,A'latune,xx,Bułgaria,,2013,klacz,2016-09-04,Wrocław,15302,1400,III,45,dż.,A. Kabardov,57,58,E. Zahariev,2,0,7,2500
 21450,Emil's Kiss,xx,Francja,,2013,klacz,2016-04-24,Wrocław,14976,1400,III,38,k. dż.,A. Mazurkiewicz,57,58,E. Zahariev,4,0,9,1500
-21450,Emil's Kiss,xx,Francja,,2013,klacz,2016-05-22,Warszawa,15012,1600,III,129,dż.,F. Lefebvre,57,58,E. Zahariev,5,0,6,350
+21450,Emil's Kiss,xx,Francja,,2013,klacz,2016-05-22,Warszawa,15012,1600,III,129,dż.,F. Lefebvre,57,58,E. Zahariev,5,0,,350
 21450,Emil's Kiss,xx,Francja,,2013,klacz,2016-06-19,Wrocław,15065,1400,III,45,dż.,A. Kabardov,58,58,E. Zahariev,4,0,8,1500
 21451,Melodia,xx,Irlandia,2014-04-06,2014,klacz,2016-08-07,Warszawa,15218,1000,II,45,dż.,A. Kabardov,56,58,E. Zahariev,7,0,7,0
 21451,Melodia,xx,Irlandia,2014-04-06,2014,klacz,2016-09-18,Wrocław,15314,1200,II,45,dż.,A. Kabardov,56,58,E. Zahariev,3,0,10,2800
@@ -13883,7 +13862,7 @@
 21548,Cokablanca,klusak,Francja,,2012,klacz,2017-10-29,Wrocław,16068,1600,kłusaki,62,pow.,B. Żakowski,,286,B. Żakowski,4,0,6,750
 21548,Cokablanca,klusak,Francja,,2012,klacz,2018-04-29,Wrocław,16131,2000,kłusaki,62,pow.,B. Żakowski,,286,B. Żakowski,5,0,9,500
 21548,Cokablanca,klusak,Francja,,2012,klacz,2018-06-16,Warszawa,16273,2400,kłusaki,951,pow.,B.Żakowski,,286,B. Żakowski,5,0,7,300
-21548,Cokablanca,klusak,Francja,,2012,klacz,2018-07-07,Praga,,1670,sulki,,,B. Żakowski,,286,B. Żakowski,8,0,6,0
+21548,Cokablanca,klusak,Francja,,2012,klacz,2018-07-07,Praga,,1670,sulki,,,B. Żakowski,,286,B. Żakowski,8,0,,0
 21548,Cokablanca,klusak,Francja,,2012,klacz,2018-07-14,Sopot,16326,2200,kłusaki,62,pow.,B. Żakowski,,286,B. Żakowski,5,0,9,200
 21548,Cokablanca,klusak,Francja,,2012,klacz,2018-08-11,Praga,,2180,sulki,,,B. Żakowski,,286,B. Żakowski,,1,6,0
 21548,Cokablanca,klusak,Francja,,2012,klacz,2018-08-26,Wrocław,16495,2400,kłusaki,62,pow.,B. Żakowski,,286,B. Żakowski,7,0,9,400
@@ -15538,7 +15517,6 @@
 22820,Dominer,xx,Polska,2015-01-06,2015,ogier,2021-05-03,Wrocław,17867,3600,płoty,21,st. u.,P. Pałczyński,69,30,Z. Lica,,1,13,0
 22827,Linovsky,xx,Polska,2015-03-08,2015,ogier,2017-08-20,Wrocław,15838,1200,II,247,dż.,M. Havelkova,57,55,I. Wróblewska,1,0,8,8000
 22827,Linovsky,xx,Polska,2015-03-08,2015,ogier,2017-09-17,Warszawa,15935,1200,I,36,dż.,T. Lukašek,57,55,I. Wróblewska,5,0,7,530
-22827,Linovsky,xx,Polska,2015-03-08,2015,ogier,2017-10-15,Praga,,1800,,,dż.,M. Havelková,57,55,I. Wróblewska,,1,11,0
 22827,Linovsky,xx,Polska,2015-03-08,2015,ogier,2017-10-15,Praga,,1800,,,dż.,M. Havelková,57,55,I. Wróblewska,8,0,11,0
 22827,Linovsky,xx,Polska,2015-03-08,2015,ogier,2018-08-05,Wrocław,16361,2800,płoty,766,dż.,M. Novák,66,55,I. Wróblewska,5,0,8,1000
 22827,Linovsky,xx,Polska,2015-03-08,2015,ogier,2018-10-21,Wrocław,16669,3000,płoty,766,dż.,M. Novák,67,55,I. Wróblewska,1,0,7,15000
@@ -17844,7 +17822,6 @@
 30013,Mädchen Für Alles,xx,Polska,2017-03-23,2017,klacz,2020-09-30,Wrocław,17652,2800,płoty,991,pr. dż.,P. Složil mł.,66,9,M. Borkowski,5,0,10,1000
 30013,Mädchen Für Alles,xx,Polska,2017-03-23,2017,klacz,2020-10-18,Wrocław,17700,1907,IV,992,st. u.,R. Mannanbek Uulu,54,9,M. Borkowski,7,0,9,0
 30013,Mädchen Für Alles,xx,Polska,2017-03-23,2017,klacz,2020-11-11,Wrocław,17815,3000,płoty,943,u.,O. Ryzhak,64,9,M. Borkowski,3,0,6,3000
-30013,Mädchen Für Alles,xx,Polska,2017-03-23,2017,klacz,2020-11-11,Wrocław,17806,3000,płoty,943,u.,O. Ryzhak,64,9,M. Borkowski,3,0,6,3000
 30014,Minister Wojny,xx,Polska,2017-01-31,2017,ogier,2019-08-18,Wrocław,17018,1400,II,324,dż.,D. Petryakov,57,9,M. Borkowski,3,0,8,2400
 30014,Minister Wojny,xx,Polska,2017-01-31,2017,ogier,2019-09-08,Wrocław,17064,1400,II,993,pr. dż.,U. Kozhomkulov,57,9,M. Borkowski,1,0,8,8000
 30014,Minister Wojny,xx,Polska,2017-01-31,2017,ogier,2019-10-06,Warszawa,17133,1400,B,76,dż.,K. Grzybowski,57,9,M. Borkowski,2,0,8,8000
@@ -18426,7 +18403,6 @@
 30234,Himron,xx,Polska,2017-03-31,2017,ogier,2020-09-30,Wrocław,17652,2800,płoty,15,k. dż.,D. Pastuszka,68,95,K. Rogowski,7,0,10,0
 30234,Himron,xx,Polska,2017-03-31,2017,ogier,2020-10-31,Warszawa,17750,2000,IV,993,pr. dż.,U. Kozhomkulov,57,95,K. Rogowski,6,0,7,0
 30234,Himron,xx,Polska,2017-03-31,2017,ogier,2020-11-11,Wrocław,17815,3000,płoty,15,dż.,D. Pastuszka,66,95,K. Rogowski,6,0,6,0
-30234,Himron,xx,Polska,2017-03-31,2017,ogier,2020-11-11,Wrocław,17806,3000,płoty,15,dż.,D. Pastuszka,66,95,K. Rogowski,6,0,6,0
 30234,Himron,xx,Polska,2017-03-31,2017,ogier,2021-05-03,Wrocław,17866,1907,III,997,st. u.,E. Turganaaly Uulu,57,95,K. Rogowski,7,0,7,0
 30235,Impela,xx,Polska,2017-03-14,2017,klacz,2019-10-12,Warszawa,17148,1200,II,44,dż.,A. Turgaev,57,31,M. Łojek,7,0,8,0
 30235,Impela,xx,Polska,2017-03-14,2017,klacz,2019-10-26,Warszawa,17192,1400,II,47,dż.,S. Mura,57,31,M. Łojek,10,0,14,0
@@ -18949,7 +18925,6 @@
 30413,Tonerre,xx,Francja,2017-04-06,2017,ogier,2020-09-13,Wrocław,17625,2800,płoty,630,dż.,N. Lovén,66,49,R. Świątek,1,0,6,10000
 30413,Tonerre,xx,Francja,2017-04-06,2017,ogier,2020-10-18,Wrocław,17698,3000,płoty,1009,k. dż.,C. Roberts,66,49,R. Świątek,4,0,11,4000
 30413,Tonerre,xx,Francja,2017-04-06,2017,ogier,2020-11-11,Wrocław,17815,3000,płoty,630,dż.,N. Lovén,67,49,R. Świątek,1,0,6,10000
-30413,Tonerre,xx,Francja,2017-04-06,2017,ogier,2020-11-11,Wrocław,17806,3000,płoty,630,dż.,N. Lovén,67,49,R. Świątek,1,0,6,10000
 30413,Tonerre,xx,Francja,2017-04-06,2017,ogier,2021-05-03,Wrocław,17873,3400,steeple,630,dż.,N. Lovén,68,49,R. Świątek,,1,8,0
 30413,Tonerre,xx,Francja,2017-04-06,2017,ogier,2021-05-26,Wrocław,17905,3600,steeple,10,dż.,J. Myška,67,49,R. Świątek,2,0,10,4800
 30413,Tonerre,xx,Francja,2017-04-06,2017,ogier,2021-06-16,Wrocław,18004,3850,steeple,10,dż.,J. Myška,68,49,R. Świątek,2,0,13,4800
@@ -21207,7 +21182,6 @@
 32067,Daralara,xx,Czechy,,2016,klacz,2022-05-03,Wrocław,18421,3200,II,1046,dż.,P. Foret,60,266,E. Záhorová,3,0,9,2550
 32068,Zarate,xx,Polska,,2017,wałach,2020-09-30,Wrocław,17653,3200,II,989,pr. dż.,D. Vyhnalek,57,235,V. Lempochnerová,7,0,10,0
 32068,Zarate,xx,Polska,,2017,wałach,2020-11-11,Wrocław,17815,3000,płoty,781,k. dż.,J. Odložil,66,235,V. Lempochnerová,4,0,6,2000
-32068,Zarate,xx,Polska,,2017,wałach,2020-11-11,Wrocław,17806,3000,płoty,781,k. dż.,J. Odložil,66,235,V. Lempochnerová,4,0,6,2000
 32068,Zarate,xx,Polska,,2017,wałach,2021-05-03,Wrocław,17873,3400,steeple,989,pr. dż.,D. Vyhnalek,68,235,V. Lempochnerová,,1,8,0
 32068,Zarate,xx,Polska,,2017,wałach,2021-05-26,Wrocław,17905,3600,steeple,255,dż.,L. Matuský,67,235,V. Lempochnerová,5,0,10,1200
 32068,Zarate,xx,Polska,,2017,wałach,2021-06-16,Wrocław,18004,3850,steeple,8,dż.,M. Stromský,67,235,V. Lempochnerová,8,0,13,0

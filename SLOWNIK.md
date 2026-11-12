@@ -69,7 +69,9 @@ Typ w pliku CSV to nie zawsze typ do analizy: liczba bywa identyfikatorem, a tek
   literówka na stronie) mają puste `czas_zwyciezcy_s`, a powód stoi w `uwagi`.
 - **Gonitwy z dziurami w wynikach** mają `kompletna=0` (brak miejsc, dwóch zwycięzców, mniej koni niż na liście sezonu).
 - **Duplikaty:** żadna para (`race_id`, `horse_id`) ani (`race_id`, `kon_klucz`) nie występuje dwa razy
-  (`kontrola_jakosci.txt`).
+  (`kontrola_jakosci.txt`). Z historii usunięto 20 zdublowanych startów: gonitwę 17806, która jest drugą stroną
+  gonitwy 17815 (Wrocław, 11.11.2020), i 16 startów bez numeru gonitwy zapisanych dwa razy (druga kopia bez miejsca).
+  Dwa starty konia tego samego dnia zostały w historii już tylko u kłusaków (dwa biegi jednego dnia).
 - **Wyliczone ze źródła:** `rasa` i `rodzaj` z warunków gonitwy, `status` i `powod_kategoria` z oznaczeń na stronie,
   `stan_toru_liczba` z nawiasu przy stanie toru.
 
@@ -195,7 +197,7 @@ daty prognozowanej gonitwy.
 | data, tor, race_id, dystans_m | start: data, miasto toru (warianty pisowni ujednolicone, np. Hoppergaten → Hoppegarten), ID gonitwy, dystans |
 | kategoria | kolumna „kat.” ze strony konia: grupa (I–IV, A…) albo płoty / steeple / sulki |
 | jezdziec_id, jezdziec_kat, jezdziec, waga_kg, trener_id, trener | jak w `starty_partynice.csv` |
-| miejsce, nie_ukonczyl, liczba_koni, wygrana_kwota | wynik tamtego startu (strona pisze „miejsce / liczba koni”) |
+| miejsce, nie_ukonczyl, liczba_koni, wygrana_kwota | wynik tamtego startu (strona pisze „miejsce / liczba koni”); `liczba_koni` jest pusta, gdy strona podaje 0 albo mniej koni niż zajęte miejsce |
 
 ## pogoda_imgw_wroclaw.csv: 1 wiersz = 1 dzień (stacja IMGW Wrocław)
 
@@ -226,6 +228,15 @@ Stacja stoi ok. 10 km od toru.
 - **2023: w 7 gonitwach baza ma o 1–2 konie mniej niż „l.koni” z listy** (19004, 19006, 19008, 19010, 19084, 19091, 19092;
   `kompletna=0`). Miejsca mają tam dziury, a `miejsce` bywa większe niż liczba wierszy (19008: miejsca do 6 przy 5 wierszach;
   19092: do 5 przy 4).
+- **Historia: `liczba_koni` pusta w 27 startach.** 12 to starty zagraniczne, przy których strona konia podaje 0 koni.
+  Pozostałe 15 to gonitwy 148, 14391 i 15012 oraz jeden start bez numeru gonitwy: zajęte miejsce jest tam większe niż
+  podana liczba koni (np. 15012: miejsca do 7 przy 6 koniach), więc podana liczba jest za mała dla całej gonitwy.
+- **Imiennicy pomyleni przez stronę.** koniewyscigowe.pl podpiął starty młodszych koni pod starsze konie o tej samej
+  nazwie: Babilonia (ur. 1996) „biegła” w 2020 i 2021 r. jako 24- i 25-latka, Habanera (ur. 1997) w 2022 r. jako
+  25-latka. Starty, w których koń miałby ponad 20 lat, usunięto z historii tamtych koni (6 wierszy). W
+  `starty_partynice.csv` te 4 starty są bez konia: puste `horse_id`, `wiek`, `plec`, `masc`, a `kon_klucz` bez roku
+  (`babilonia|`, `habanera|`). Najpewniej to Babilonia ur. 2013 (`horse_id` 35509) i Habanera ur. 2017 (36495), ale
+  baza nie łączy ich automatycznie. Najstarszy prawdziwy start w bazie to 18-letni kłusak.
 - `odleglosc` u zwycięzcy jest pusta, u nieukończonych zwykle też, ale w 2023 bywa wpisana (19010, 19225, 19226, 19461).
 - `status` pochodzi z oznaczenia na stronie, a `powod` to opis sędziów i może mówić co innego. Przykład: kłusak oznaczony
   „(nie ukończył)” z powodem „Dyskwalifikacja za galop…”. Do analiz używaj `status` albo `powod_kategoria`.
@@ -235,6 +246,9 @@ Stacja stoi ok. 10 km od toru.
 - `kraj` dla 2013–2023 jest pusty, bo strony gonitw koniewyscigowe go nie podają (kraj słownie jest w `historia_koni_PL.csv`
   jako `pochodzenie`).
 - 13.09.2026: strona toru nie podaje stanu toru (8 gonitw; w `uwagi`).
+- 17410 (8.07.2020): strona podaje stan toru „ciężki (9.9)”, a pozostałe gonitwy tego dnia „elastyczny (3.5)”. To był
+  jedyny „ciężki” w bazie i pomiar spoza skali (pozostałe mieszczą się w 1,9–4,7), więc `stan_toru`
+  i `stan_toru_liczba` są puste w gonitwie i jej 8 startach, a powód jest w `uwagi`.
 - 2026052405: lista odległości nie zgadza się z liczbą koni na mecie, więc odległości są puste (w `uwagi`).
 - 2026060406: 8 z 9 koni bez miejsca, większość pomyliła trasę (w `uwagi`).
 - Ten sam koń bywa na stronie toru raz z linkiem do koniewyscigowe, raz bez. Skrypt przenosi wtedy ID z innego startu

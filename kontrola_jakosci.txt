@@ -114,3 +114,13 @@ Braki w kolumnach (puste komórki):
   starty_partynice.csv [torpartynice] (578 wierszy), puste: nazwa_gonitwy=239, kategoria=215, stan_toru=58, stan_toru_liczba=58, horse_id=96, waga_kg=63, jezdziec_id=129, trener_id=110, miejsce=42, powod=537, powod_kategoria=537, odleglosc=172
 
 program PDF: programów PDF=10, wpisów odczytanych z PDF=632, dubli w PDF (pominięte)=18, OS: liczba dni=518, gwiazdki PDF = strona=558, gwiazdki z: pdf=599, OS: '-' (debiut)=57, wpisów ze stron dni bez pary w PDF (OS puste)=20, gwiazdki z: strona=20, gwiazdki z: brak=1, OS: nieodczytany=25, wpisów PDF bez pary na stronach dni=14
+
+Poprawki historii 20.10.2026 (skrypt pobieranie/popraw_historie.py, plik poprawiony w miejscu):
+  historia_koni_PL.csv: 24348 -> 24328 wierszy
+  usunięte 4 wiersze gonitwy 17806: druga strona gonitwy 17815 (Wrocław, 11.11.2020, te same konie i miejsca; w starty_partynice.csv jest tylko 17815)
+  usunięte 16 kopii startów bez race_id (15 zagranicznych z 2017 r. i 1 kłusaka): kopia bez miejsca obok kopii z miejscem, reszta pól identyczna
+  liczba_koni wyczyszczona w 27 wierszach: 12 z wartością 0 (starty zagraniczne) i 15 w gonitwach, w których miejsce > liczba koni (148, 14391, 15012 i 1 start bez race_id)
+  kontrola po poprawkach: konie poza kłusakami bez dwóch startów tego samego dnia=0, miejsce > liczba_koni=0, liczba_koni=0: 0
+  usunięte 6 startów z historii koni, które miałyby wtedy ponad 20 lat (imiennicy podpięci przez stronę: Babilonia ur. 1996 w 2020-2021, Habanera ur. 1997 w 2022); historia: 24328 -> 24322 wierszy
+  starty_partynice.csv: te 4 starty bez konia (puste horse_id, wiek, plec, masc; kon_klucz bez roku urodzenia)
+  stan toru sprzeczny z resztą dnia (pomiar dalej niż 2 od mediany dnia): gonitwa 17410 (8.07.2020, „ciężki (9.9)” przy „elastyczny (3.5)”); stan_toru i stan_toru_liczba puste w 1 gonitwie i 8 startach, powód w uwagi
