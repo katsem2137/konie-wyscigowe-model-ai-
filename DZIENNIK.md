@@ -120,3 +120,26 @@ W 2026 r. punktem odniesienia mogą być gwiazdki ★ z programów.
   wynik zmienia się skokowo), dlatego ustawiamy stałe ziarno losowania `rng(1)`.
 - Następny krok: więcej danych w teście, czyli okresy trzyletnie (np. uczenie 2013–2014 = 175 gonitw, test 2015 = 103
   gonitwy) i te same zbiory dla regresji logistycznej.
+
+## 12.11.2026: powtarzalność lasu i liczba drzew
+
+- Las z 28.10 puszczony 10 razy na każdy próg (różne losowanie, `model/trafnosc_progi.m`). Średnia trafność:
+  próg 3 – 37%, 5 – 28%, 10 – 48%, 15 – 54%. Pojedyncze wyniki z 28.10 (50% przy 5, 31% przy 15) to w dużej części przypadek: przy 10–16 gonitwach
+  testowych wynik zależy od losowania.
+  ![Trafność lasu dla progów](model/wykresy/las_trafnosc_progi.png)
+- Czas uczenia a trafność (`model/czas_vs_trafnosc.m`, próg 5, 10 prób na każdą liczbę drzew):
+
+  | Drzewa | Czas uczenia | Trafność (min–max) |
+  |---|---|---|
+  | 50  | 0,05 s | 34% (25–44%) |
+  | 100 | 0,10 s | 31% (25–38%) |
+  | 200 | 0,18 s | 29% (25–31%) |
+  | 300 | 0,24 s | 29% (25–31%) |
+  | 500 | 0,40 s | 27% (25–31%) |
+
+- Wniosek: czas rośnie proporcjonalnie do liczby drzew, trafność nie rośnie. Więcej drzew daje stabilniejszy wynik
+  (mniejszy rozrzut), a nie lepszy. Wyniki porównujemy jako średnią z kilku uruchomień, nie z jednego.
+
+  ![Czas uczenia a trafność](model/wykresy/las_czas_vs_trafnosc.png)
+- Kody lasu w `model/`: `test1.m` (pierwszy las), `trafnosc_progi.m`, `czas_vs_trafnosc.m`; tabelę cech buduje
+  `model/zbuduj_cechy.py`.
