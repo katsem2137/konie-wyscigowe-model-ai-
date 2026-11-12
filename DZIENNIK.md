@@ -96,3 +96,27 @@ W 2026 r. punktem odniesienia mogą być gwiazdki ★ z programów.
 - Sprawdzenie progu doświadczenia: w 2013 r. przy progu 10 startów zostaje tylko 27 gonitw z co najmniej dwoma takimi
   końmi, a w co trzeciej z nich wygrał koń mniej doświadczony. Do rozważenia niższy próg (3–5 startów) albo więcej
   sezonów.
+
+**Na zajęciach: pierwszy model – las losowy (Kasia, MATLAB)**
+
+- `TreeBagger`: 300 drzew, `MinLeafSize` 5, 14 cech z tabeli (m.in. liczba startów, odsetek wygranych i miejsc
+  w pierwszej trójce, średnia i mediana miejsca względnego, dni od ostatniego startu, dystans, liczba koni, wiek,
+  waga). Uczenie i test na podziale `zbior_2013`.
+- Las daje każdemu koniowi szansę wygranej, a typem w gonitwie jest koń z największą szansą. Miarą jest odsetek
+  trafionych gonitw.
+- Wyniki dla różnych progów doświadczenia (konie z mniejszą liczbą wcześniejszych startów usunięte):
+
+  | Próg startów | Gonitwy testowe | Koni na gonitwę | Las losowy | Losowe typowanie | Koń z najlepszą średnią miejsca |
+  |---|---|---|---|---|---|
+  | 3  | 16 | 7,5 | ok. 31% | 12% | 38% |
+  | 5  | 16 | 6,1 | 50% | 14% | 31% |
+  | 10 | 12 | 2,9 | 50% | 19% | 42% |
+  | 15 | 10 | 2,5 | ok. 31% | 21% | 50% |
+
+- Wniosek: las wygrywa z prostą regułą przy progach 5 i 10, a przegrywa przy 3 i 15. Gonitw testowych jest jednak
+  tylko 10–16, więc jedna gonitwa zmienia wynik o 6–10 punktów procentowych i różnice są w granicach przypadku.
+  Wyników dla różnych progów nie można też porównywać między sobą, bo każdy próg daje inny zbiór testowy.
+- Obserwacje: kolejne uruchomienia zmieniają ważność cech, ale nie odsetek trafień (przy kilkunastu gonitwach
+  wynik zmienia się skokowo), dlatego ustawiamy stałe ziarno losowania `rng(1)`.
+- Następny krok: więcej danych w teście, czyli okresy trzyletnie (np. uczenie 2013–2014 = 175 gonitw, test 2015 = 103
+  gonitwy) i te same zbiory dla regresji logistycznej.
