@@ -68,13 +68,31 @@ maska = (S.rok == 2013) & (S.kompletna == 1)
 S.loc[maska & (S.data <= dzien_ciecia), "zbior_2013"] = "trening"
 S.loc[maska & (S.data > dzien_ciecia), "zbior_2013"] = "test"
 
+# Podział trzyletni: lata 2013-2014 to trening, rok 2015 to test (tylko gonitwy z pełnymi wynikami)
+S["zbior_3lata"] = ""
+maska = S.kompletna == 1
+S.loc[maska & S.rok.isin([2013, 2014]), "zbior_3lata"] = "trening"
+S.loc[maska & (S.rok == 2015), "zbior_3lata"] = "test"
+
+# Każdy sezon osobno (ustalenie z zajęć 13.11): w każdym roku 2013-2023 ta sama reguła co w zbior_2013,
+# czyli pierwsze 3/4 gonitw (całymi dniami wyścigowymi) to trening, reszta to test
+S["zbior_sezon"] = ""
+for rok in range(2013, 2024):
+    maska = (S.rok == rok) & (S.kompletna == 1)
+    gr = S[maska].groupby("race_id").data.first().sort_values()
+    if gr.empty:
+        continue
+    dzien = gr.iloc[int(np.ceil(UDZIAL_TRENINGU_2013 * len(gr))) - 1]
+    S.loc[maska & (S.data <= dzien), "zbior_sezon"] = "trening"
+    S.loc[maska & (S.data > dzien), "zbior_sezon"] = "test"
+
 KOLUMNY = ["race_id", "data", "rok", "nr_w_sezonie", "horse_id", "kon", "kompletna",
            "wygral", "top3", "miejsce", "miejsce_wzgl",
            "rodzaj", "dystans_m", "liczba_koni", "kategoria", "pula", "gonitwa_uczniowska", "stan_toru", "stan_toru_liczba",
            "wiek", "plec", "waga_kg", "jezdziec_kat",
            "starty_przed", "wygrane_przed", "odsetek_wygranych", "odsetek_top3", "srednia_miejsca", "mediana_miejsca",
            "srednia_wzgl", "mediana_wzgl", "srednia_wzgl_5", "ostatnie_wzgl", "dni_od_ostatniego", "starty_rok",
-           "ranga_srednia_wzgl", "zbior_2013"]
+           "ranga_srednia_wzgl", "zbior_2013", "zbior_3lata", "zbior_sezon"]
 T = S.sort_values(["data", "race_id", "miejsce"])[KOLUMNY]
 T["data"] = T.data.dt.strftime("%Y-%m-%d")
 T.to_csv(WYJSCIE, index=False, encoding="utf-8-sig", float_format="%.4f", lineterminator="\n")

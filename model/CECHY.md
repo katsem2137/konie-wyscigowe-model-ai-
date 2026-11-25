@@ -22,6 +22,8 @@ do cech. Tabelę tworzy `zbuduj_cechy.py` (`python model/zbuduj_cechy.py`).
 | starty_rok | liczba startów w ostatnich 365 dniach |
 | ranga_srednia_wzgl | pozycja konia w stawce według `srednia_wzgl` (1 = najlepsza historia w tej gonitwie) |
 | zbior_2013 | podział sezonu 2013 z zajęć 28.10: `trening` (gonitwy do 22.09.2013, 61 gonitw), `test` (19 gonitw); w innych latach puste |
+| zbior_3lata | podział trzyletni: `trening` (lata 2013–2014, 175 gonitw), `test` (2015, 103 gonitwy); w innych latach puste |
+| zbior_sezon | każdy sezon 2013–2023 osobno (zajęcia 13.11), ta sama reguła co `zbior_2013`: pierwsze 3/4 gonitw sezonu to `trening`, reszta `test`; w 2026 puste |
 
 Konie doświadczone wybiera się filtrem, np. `starty_przed >= 10`. W 2013 r. przy progu 10 zostaje tylko 27 gonitw
 z co najmniej dwoma takimi końmi, a w co trzeciej z nich wygrał koń mniej doświadczony.
