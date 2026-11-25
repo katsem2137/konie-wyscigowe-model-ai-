@@ -1,4 +1,5 @@
 % Trafność lasu z test1.m dla różnych progów doświadczenia: 10 uruchomień na każdy próg.
+% Nad słupkami: ile gonitw testowych zostaje po filtrze i ilu koni średnio w nich startuje (ustalenie z zajęć 13.11).
 
 T0 = readtable('cechy_partynice.csv', 'TextType', 'string');
 cechy = ["starty_przed" "odsetek_wygranych" "odsetek_top3" "srednia_wzgl" "mediana_wzgl" ...
@@ -7,12 +8,17 @@ cechy = ["starty_przed" "odsetek_wygranych" "odsetek_top3" "srednia_wzgl" "media
 progi = [3 5 10 15];
 proby = 10;
 trafnosc = zeros(numel(progi), proby);
+gonitwy = zeros(numel(progi), 1);               % ile gonitw zostaje w teście po filtrze
+koni = zeros(numel(progi), 1);                  % ilu koni średnio startuje w gonitwie testowej
 
 for k = 1:numel(progi)
     T = T0(T0.starty_przed >= progi(k), :);
     tren = T(T.zbior_2013 == "trening", :);
     test = T(T.zbior_2013 == "test", :);
+    
     g = findgroups(test.race_id);
+    gonitwy(k) = max(g);
+    koni(k) = height(test) / gonitwy(k);
     for i = 1:proby
         rng(i);
         las = TreeBagger(300, tren(:, cechy), tren.wygral, 'Method', 'classification', 'MinLeafSize', 5);
@@ -21,16 +27,19 @@ for k = 1:numel(progi)
         trafiona = splitapply(@(p, w) w(find(p == max(p), 1)) == 1, p, test.wygral, g);
         trafnosc(k, i) = 100 * mean(trafiona);
     end
-    fprintf('próg %2d: średnio %.1f%% (min %.1f, max %.1f)\n', progi(k), mean(trafnosc(k, :)), ...
-        min(trafnosc(k, :)), max(trafnosc(k, :)));
+    fprintf('próg %2d: %2d gonitw, średnio %.1f konia; trafność %.1f%% (min %.1f, max %.1f)\n', progi(k), ...
+        gonitwy(k), koni(k), mean(trafnosc(k, :)), min(trafnosc(k, :)), max(trafnosc(k, :)));
 end
 
 sr = mean(trafnosc, 2);
-figure('Color', 'w');
+figure('Color', 'w', 'Position', [100 100 700 480]);
 bar(sr, 'FaceColor', [0.3 0.5 0.8]); hold on
 errorbar(1:numel(progi), sr, sr - min(trafnosc, [], 2), max(trafnosc, [], 2) - sr, 'k.', 'LineWidth', 1.2);
+opis = gonitwy + " gonitw" + newline + "średnio " + strrep(compose("%.1f", koni), ".", ",") + " konia";
+text((1:numel(progi))', max(trafnosc, [], 2) + 2, opis, 'HorizontalAlignment', 'center', ...
+    'VerticalAlignment', 'bottom', 'FontSize', 10);
 xticks(1:numel(progi)); xticklabels(string(progi));
-ylim([0 70]); set(gca, 'FontSize', 10); grid on
+ylim([0 80]); set(gca, 'FontSize', 10); grid on
 xlabel('próg: co najmniej tyle wcześniejszych startów konia');
 ylabel('trafione gonitwy [%]');
 title('Las losowy, 300 drzew: średnia z 10 uruchomień (kreski: min–max)');

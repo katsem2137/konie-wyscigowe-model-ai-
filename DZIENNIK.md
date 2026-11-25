@@ -143,3 +143,32 @@ W 2026 r. punktem odniesienia mogą być gwiazdki ★ z programów.
   ![Czas uczenia a trafność](model/wykresy/las_czas_vs_trafnosc.png)
 - Kody lasu w `model/`: `test1.m` (pierwszy las), `trafnosc_progi.m`, `czas_vs_trafnosc.m`; tabelę cech buduje
   `model/zbuduj_cechy.py`.
+
+## Lab 4 – 13.11.2026: dobór cech i plan porównania modeli
+
+**Na zajęciach**
+
+- Cech ma być jak najmniej. Nowe cechy można tworzyć z już znanych (ekstrakcja, np. statystyki konia). Przy
+  selekcji odrzuca się cechy, które niosą tę samą informację (skorelowane), i cechy o małej wariancji, bo niczego
+  nie rozróżniają.
+- Redukcja wymiarowości: PCA tworzy nowe cechy jako kombinacje starych, uporządkowane od największej wariancji.
+  Zostawia się kilka pierwszych, które niosą większość informacji.
+- Setki uruchomień najlepiej liczyć w chmurze (Google Colab, Kaggle, MATLAB Online, AWS, Azure, GCP).
+- W tabeli cech przygotowany podział trzyletni `zbior_3lata`: trening 2013–2014 (175 gonitw), test 2015
+  (103 gonitwy).
+- Kacper: regresja logistyczna (`KONIKI.m`) na tych samych 14 cechach i podziałach co las.
+
+**Ustalenia z prowadzącym**
+
+- Sprawdzić, ile koni zostaje w gonitwie przy kolejnych progach doświadczenia.
+- Każdy sezon osobno: czy model radzi sobie podobnie w każdym sezonie.
+- Las losowy na 50 i na 100 drzewach, osobno.
+- Skuteczność w kolejnych sezonach: porównanie lasu i regresji, z odchyleniem standardowym i inną statystyką.
+
+**Po zajęciach**
+
+- 25.11: liczba koni przy progach. Nad słupkami wykresu trafności lasu jest liczba gonitw testowych i średnia liczba
+  koni w gonitwie. Przy progu 3 w gonitwie testowej startuje średnio 7,5 konia, a przy progu 15 tylko 2,5. Mniej koni
+  to łatwiejsze typowanie: losowy typ trafia przy progu 3 w 12,5% gonitw, a przy progu 15 w 20,8%.
+
+  ![Trafność lasu dla progów z liczbą koni](model/wykresy/las_trafnosc_progi.png)
