@@ -172,3 +172,54 @@ W 2026 r. punktem odniesienia mogą być gwiazdki ★ z programów.
   to łatwiejsze typowanie: losowy typ trafia przy progu 3 w 12,5% gonitw, a przy progu 15 w 20,8%.
 
   ![Trafność lasu dla progów z liczbą koni](model/wykresy/las_trafnosc_progi.png)
+
+## Lab 5 – 25.11.2026: walidacja i plan optymalizacji hiperparametrów
+
+**Przed zajęciami: każdy sezon osobno** (ustalenie z 13.11)
+
+- W każdym sezonie 2013–2023 ten sam podział co w 2013: pierwsze 3/4 gonitw sezonu to trening, ostatnia 1/4 to test
+  (kolumna `zbior_sezon`). Próg: co najmniej 3 wcześniejsze starty konia.
+- Las losowy na 50 i na 100 drzewach, 10 uruchomień w każdym sezonie: średnio 33,6% i 33,9% trafionych gonitw, losowe
+  typowanie 13,6%. Odchylenie standardowe między sezonami wynosi 10–11 punktów procentowych, a między uruchomieniami
+  w jednym sezonie średnio 5,2 (50 drzew) i 4,6 (100 drzew).
+- Najwyższy wynik daje 2016 r. (las 59–62%). W teście z 2016 r. częściej wygrywali faworyci: koń z najlepszą średnią
+  miejsca wygrał w 47% gonitw testowych, a w pozostałych sezonach w 21–37,5%. Test to tylko 17 gonitw z trzech
+  niedziel, więc kilka przewidywalnych dni podnosi wynik całego sezonu.
+- Porównanie z regresją logistyczną (Kacper) na tych samych gonitwach testowych, średnia z 11 sezonów (las: 50 drzew,
+  5 uruchomień):
+
+  | Próg startów | Regresja logistyczna | Las losowy | Koń z najlepszą średnią miejsca | Losowe typowanie |
+  |---|---|---|---|---|
+  | 3 | 28,2% | 34,3% | 31,9% | 13,6% |
+  | 5 | 30,8% | 30,8% | 31,5% | 14,6% |
+
+- Przy progu 3 las jest lepszy od prostej reguły w 8 z 11 sezonów, średnio o 2,4 punktu procentowego, ale test t dla
+  par daje p = 0,15, więc różnica mieści się w granicach przypadku. Regresja jest średnio o 3,7 punktu gorsza od reguły
+  (p = 0,18). Przy progu 5 wszystkie trzy metody trafiają praktycznie tyle samo.
+- Remis kilku koni z tą samą oceną liczymy jako szansę 1/k. Wcześniej kod brał pierwszy wiersz gonitwy, a w tabeli
+  zwycięzca stoi pierwszy, więc przy remisie typ zawsze trafiał (jeden taki przypadek w regule, 2014 r.).
+
+**Na zajęciach: walidacja**
+
+- Błędy walidacji: wyciek danych, gdy model ma bezpośredni lub pośredni dostęp do danych testowych (np. PCA liczone
+  na całych danych), dlatego przetwarzanie danych robimy tylko na zbiorze treningowym. Drugi błąd to wniosek
+  z pojedynczego uczenia, bo jego wynik może być przypadkowy (zależy od modelu i danych).
+- Ocena stabilności: N trenowań na tych samych danych i z tymi samymi ustawieniami oraz M trenowań na innych podziałach
+  80/20. Wynik podajemy jako średnią ± odchylenie standardowe; można też zrobić M×N trenowań. Trzeba wiedzieć, kiedy
+  ziarno losowania (seed) ma być stałe, a kiedy trzeba je zmieniać.
+- Walidacja krzyżowa, szybsza przy dużych N×M: dane dzielimy na k równych części i robimy k treningów na k−1 częściach,
+  za każdym razem z inną częścią jako zbiorem testowym. Zwykle k = 5–10, np. przy k = 5 pierwszy przebieg testuje
+  na K1 i uczy się na K2–K5 itd. Stosuje się też zagnieżdżoną walidację krzyżową.
+
+**Ustalenia (do zrobienia)**
+
+- Sprawdzić N i M trenowaniami, czy nie ma wycieku danych i czy model jest stabilny. Stabilność jest w porządku.
+- Early stopping: przerwać trening, gdy model jest optymalny, a kolejne przebiegi nie dają dużego przyrostu
+  skuteczności.
+- Optymalizacja hiperparametrów: znaleźć najlepszą liczbę drzew (10, 50, 200), część sezonu przeznaczoną na trening
+  (czy inny stosunek niż 80/20 będzie lepszy) i liczbę poprzednich lat branych do treningu. Metody: grid search
+  (sprawdza wszystkie kombinacje parametrów; opisać, jak działa), coarse to fine (najpierw rzadka siatka, potem
+  gęstsza wokół najlepszego wyniku) i random search (losuje kombinacje).
+- Porównać, o ile szybszy jest random search od grid search i jak wypadają jego wyniki.
+- Rozważyć inny model.
+- Przy ocenie modeli podawać średnią trafność i średnie odchylenie standardowe, także dla lasu w każdym sezonie osobno.
